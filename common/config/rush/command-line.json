@@ -1,0 +1,64 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/command-line.schema.json",
+  "commands": [
+    {
+      "commandKind": "global",
+      "name": "ncu",
+      "summary": "Checks for all packages version across projects.",
+      "description": "Equivalent to 'npm-check-updates --deep'.  Should install global first: 'npm install -g npm-check-updates'",
+      "shellCommand": "ncu --deep --timeout 300000"
+    },
+    {
+      "commandKind": "bulk",
+      "name": "test",
+      "summary": "Run tests across projects",
+      "enableParallelism": true,
+      "incremental": true
+    },
+    {
+      "commandKind": "bulk",
+      "name": "lint:es",
+      "summary": "Run eslint across projects",
+      "enableParallelism": true,
+      "incremental": true
+    },
+    {
+      "commandKind": "global",
+      "name": "sort-package-json",
+      "summary": "Sort package.json from all projects",
+      "description": "Equivalent to running 'sort-package-json' in each projects",
+      "shellCommand": "sort-package-json \"libs/**/package.json\" \"apps/**/package.json\""
+    },
+    {
+      "commandKind": "bulk",
+      "name": "build",
+      "summary": "Build all projects that haven't been built, or have changed since they were last built",
+      "description": "This command is similar to \"rush rebuild\", except that \"rush build\" performs...",
+      "safeForSimultaneousRushProcesses": false,
+      "enableParallelism": true,
+      "ignoreDependencyOrder": false,
+      "ignoreMissingScript": false,
+      "allowWarningsInSuccessfulBuild": true
+    },
+    {
+      "commandKind": "bulk",
+      "name": "rebuild",
+      "summary": "Clean and rebuild the entire set of projects",
+      "description": "This command assumes that the package.json file for each project contains...",
+      "safeForSimultaneousRushProcesses": false,
+      "enableParallelism": true,
+      "ignoreDependencyOrder": false,
+      "ignoreMissingScript": false,
+      "allowWarningsInSuccessfulBuild": true
+    }
+  ],
+  "parameters": [
+    {
+      "parameterKind": "flag",
+      "longName": "--upgrade",
+      "shortName": "-u",
+      "description": "Equivalent to -u of ncu, write latest version to all package.json",
+      "associatedCommands": ["ncu"]
+    }
+  ]
+}

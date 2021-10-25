@@ -1,0 +1,98 @@
+// DO NOT ADD COMMENTS IN THIS FILE.  They will be lost when the Rush tool resaves it.
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
+  "packages": [
+    {
+      "name": "@rollup/plugin-commonjs",
+      "allowedCategories": [ "thunberg" ]
+    },
+    {
+      "name": "@rollup/plugin-node-resolve",
+      "allowedCategories": [ "thunberg" ]
+    },
+    {
+      "name": "@thunberg/eslint-config",
+      "allowedCategories": [ "thunberg" ]
+    },
+    {
+      "name": "@types/node",
+      "allowedCategories": [ "thunberg" ]
+    },
+    {
+      "name": "@typescript-eslint/eslint-plugin",
+      "allowedCategories": [ "thunberg" ]
+    },
+    {
+      "name": "@typescript-eslint/parser",
+      "allowedCategories": [ "thunberg" ]
+    },
+    {
+      "name": "autoprefixer",
+      "allowedCategories": [ "thunberg" ]
+    },
+    {
+      "name": "clean-css",
+      "allowedCategories": [ "thunberg" ]
+    },
+    {
+      "name": "eslint",
+      "allowedCategories": [ "thunberg" ]
+    },
+    {
+      "name": "eslint-import-resolver-alias",
+      "allowedCategories": [ "thunberg" ]
+    },
+    {
+      "name": "eslint-plugin-import",
+      "allowedCategories": [ "thunberg" ]
+    },
+    {
+      "name": "eslint-plugin-jest",
+      "allowedCategories": [ "thunberg" ]
+    },
+    {
+      "name": "eslint-plugin-modules-newline",
+      "allowedCategories": [ "thunberg" ]
+    },
+    {
+      "name": "jest",
+      "allowedCategories": [ "thunberg" ]
+    },
+    {
+      "name": "postcss",
+      "allowedCategories": [ "thunberg" ]
+    },
+    {
+      "name": "rollup",
+      "allowedCategories": [ "thunberg" ]
+    },
+    {
+      "name": "rollup-plugin-filesize",
+      "allowedCategories": [ "thunberg" ]
+    },
+    {
+      "name": "rollup-plugin-typescript2",
+      "allowedCategories": [ "thunberg" ]
+    },
+    {
+      "name": "tailwindcss",
+      "allowedCategories": [ "thunberg" ]
+    },
+    {
+      "name": "tslib",
+      "allowedCategories": [ "thunberg" ]
+    },
+    {
+      "name": "ttypescript",
+      "allowedCategories": [ "thunberg" ]
+    },
+    {
+      "name": "typescript",
+      "allowedCategories": [ "thunberg" ]
+    },
+    {
+      "name": "typescript-transform-paths",
+      "allowedCategories": [ "thunberg" ]
+    }
+  ]
+}

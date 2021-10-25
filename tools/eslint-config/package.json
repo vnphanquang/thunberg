@@ -1,0 +1,29 @@
+{
+  "name": "@thunberg/eslint-config",
+  "private": true,
+  "description": "Eslint config base for use in all projects",
+  "author": "Quang Phan",
+  "main": "index.js",
+  "scripts": {
+    "lint:es": "echo 'no eslint implemented'",
+    "build": "echo 'no build step needed'",
+    "test": "echo 'no implemented tests'"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^5.1.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "eslint": "^8.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-modules-newline": "^0.0.6"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "eslint": "^8.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-modules-newline": "^0.0.6"
+  }
+}

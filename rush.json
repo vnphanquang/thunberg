@@ -1,0 +1,91 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.52.0",
+  "pnpmVersion": "6.19.0",
+  "pnpmOptions": {
+    "pnpmStore": "local",
+    "strictPeerDependencies": false,
+    "resolutionStrategy": "fast",
+    "preventManualShrinkwrapChanges": false,
+    "useWorkspaces": true
+  },
+  "nodeSupportedVersionRange": "14.17.5",
+  "suppressNodeLtsWarning": false,
+  "ensureConsistentVersions": true,
+  "projectFolderMinDepth": 1,
+  "projectFolderMaxDepth": 4,
+  "allowMostlyStandardPackageNames": false,
+
+  "approvedPackagesPolicy": {
+    "reviewCategories": [
+      "thunberg",
+      "blog"
+    ]
+  },
+
+  "gitPolicy": {
+    "allowedEmailRegExps": [
+      "vnphanquang@gmail.com"
+    ],
+    "sampleEmail": "vnphanquang@gmail.com",
+    "versionBumpCommitMessage": "chore(rush): apply package updates. [skip-ci]",
+    "changeLogUpdateCommitMessage": "chore(rush): delete change files and updating change logs for package updates. [skip-ci]"
+  },
+
+  "repository": {
+    "defaultBranch": "develop",
+    "defaultRemote": "origin"
+  },
+  "eventHooks": {
+    "preRushInstall": [],
+    "postRushInstall": [],
+    "preRushBuild": [],
+    "postRushBuild": []
+  },
+  "variants": [],
+  "telemetryEnabled": false,
+  "hotfixChangeEnabled": false,
+
+  "projects": [
+    {
+      "packageName": "@thunberg/eslint-config",
+      "projectFolder": "tools/eslint-config",
+      "reviewCategory": "thunberg",
+      "cyclicDependencyProjects": [],
+      "skipRushCheck": false,
+      "shouldPublish": false
+    },
+    {
+      "packageName": "@thunberg/template-lib",
+      "projectFolder": "libs/__template",
+      "reviewCategory": "thunberg",
+      "cyclicDependencyProjects": [],
+      "skipRushCheck": false,
+      "shouldPublish": false
+    },
+    {
+      "packageName": "@thunberg/template-app",
+      "projectFolder": "apps/__template",
+      "reviewCategory": "thunberg",
+      "cyclicDependencyProjects": [],
+      "skipRushCheck": false,
+      "shouldPublish": false
+    },
+    {
+      "packageName": "@thunberg/common",
+      "projectFolder": "libs/common",
+      "reviewCategory": "thunberg",
+      "cyclicDependencyProjects": [],
+      "skipRushCheck": false,
+      "shouldPublish": false
+    },
+    {
+      "packageName": "@thunberg/tailwind",
+      "projectFolder": "libs/tailwind",
+      "reviewCategory": "thunberg",
+      "cyclicDependencyProjects": [],
+      "skipRushCheck": false,
+      "shouldPublish": false
+    }
+  ]
+}
