@@ -1,7 +1,7 @@
 export enum EnvMode {
   UNKNOWN = 'unknown',
   DEVELOPMENT = 'development',
-  TEST = 'test',
+  TESTING = 'testing',
   STAGING = 'staging',
   PRODUCTION = 'production',
 }

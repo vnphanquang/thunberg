@@ -86,6 +86,30 @@
       "cyclicDependencyProjects": [],
       "skipRushCheck": false,
       "shouldPublish": false
+    },
+    {
+      "packageName": "@thunberg/blog-i18n",
+      "projectFolder": "apps/blog/i18n",
+      "reviewCategory": "blog",
+      "cyclicDependencyProjects": [],
+      "skipRushCheck": false,
+      "shouldPublish": false
+    },
+    {
+      "packageName": "@thunberg/blog-graphql",
+      "projectFolder": "apps/blog/graphql",
+      "reviewCategory": "blog",
+      "cyclicDependencyProjects": [],
+      "skipRushCheck": false,
+      "shouldPublish": false
+    },
+    {
+      "packageName": "@thunberg/blog-frontend",
+      "projectFolder": "apps/blog/frontend",
+      "reviewCategory": "blog",
+      "cyclicDependencyProjects": [],
+      "skipRushCheck": false,
+      "shouldPublish": false
     }
   ]
 }

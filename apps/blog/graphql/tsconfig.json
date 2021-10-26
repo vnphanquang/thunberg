@@ -1,0 +1,26 @@
+{
+  "extends": "../../../common/config/tsconfig.base.json",
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.json",
+    "src/plugins/operation.cjs",
+    ".eslintrc.cjs"
+  ],
+  "compilerOptions": {
+    "noUnusedLocals": false,
+    "module": "esnext",
+    "target": "esnext",
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "types": [],
+    "baseUrl": ".",
+    "rootDir": "src",
+    "outDir": "dist",
+    "noEmit": false,
+    "declaration": true,
+    "declarationDir": "./dist/types/",
+    "tsBuildInfoFile": "dist/.tsbuildinfo",
+  }
+}

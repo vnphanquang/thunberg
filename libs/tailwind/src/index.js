@@ -18,7 +18,10 @@ module.exports = plugin(
   {
     theme: {
       extend: {
-        colors: {},
+        colors: {
+          text: 'var(--color-text)',
+          bg: 'var(--color-bg)',
+        },
       },
     },
   }

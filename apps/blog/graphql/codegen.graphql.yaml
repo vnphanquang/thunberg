@@ -1,0 +1,48 @@
+overwrite: true
+schema: src/schema.generated.graphql
+documents:
+  # - 'src/operations/anonymous/**/*.graphql'
+  # - 'src/operations/user/**/*.graphql'
+generates:
+  src/introspection.generated.json:
+    plugins:
+      - introspection
+  src/types.generated.ts:
+    plugins:
+      - add:
+          content:
+            - '// THIS FILE IS GENERATED, DO NOT EDIT!'
+            - '/* eslint-disable */'
+      - typescript
+  src/:
+    preset: near-operation-file
+    presetConfig:
+      baseTypesPath: types.generated.ts
+      extension: .ts
+      folder: generated
+    plugins:
+      - add:
+          content:
+            - '// THIS FILE IS GENERATED, DO NOT EDIT!'
+            - '/* eslint-disable */'
+      - typescript-operations
+      - typescript-document-nodes
+      - './src/plugins/operation.cjs'
+config:
+  # use "import type" instead of "import"
+  maybeValue: T | undefined
+
+  # typescript-operations
+  exportFragmentSpreadSubTypes: true
+  fragmentVariableSuffix: ''
+  preResolveTypes: true
+  dedupeFragments: true
+  useTypeImports: true
+
+  # typescript-document-nodes
+  gqlImport: '@urql/core#gql'
+
+hooks:
+  afterAllFileWrite:
+    - prettier --write
+    - eslint --fix

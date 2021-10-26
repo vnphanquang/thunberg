@@ -1,0 +1,41 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "font.css";
+
+@layer base {
+  :root {
+    --color-bg: #edeff7;
+    --color-text: #0f205c;
+  }
+
+  html {
+    @apply h-full text-text bg-bg;
+
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply w-full h-full relative;
+  }
+
+  svg {
+    fill: currentColor;
+  }
+
+  #svelte {
+    @apply h-full;
+  }
+
+  *:disabled {
+    cursor: not-allowed;
+  }
+
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px var(--color-bg) inset !important;
+    -webkit-text-fill-color: var(--color-text) !important;
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "name": "@thunberg/blog-i18n",
+  "version": "0.1.0",
+  "description": "i18n artifacts for HRM project",
+  "author": "Quang Phan",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "default": "./dist/cjs/index.js"
+    },
+    "./paths": {
+      "import": "./dist/esm/paths.js",
+      "default": "./dist/cjs/paths.js"
+    }
+  },
+  "types": "./dist/types/src/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "paths": [
+        "./dist/types/src/paths.d.ts"
+      ]
+    }
+  },
+  "scripts": {
+    "lint:es": "eslint src --ext .ts,.tsx",
+    "test": "echo 'no implemented tests'",
+    "build": "run-s codegen && rollup -c",
+    "codegen": "ts-node --script-mode ./scripts/i18n/i18n.schema.ts"
+  },
+  "dependencies": {
+    "@thunberg/common": "workspace:*"
+  },
+  "devDependencies": {
+    "@thunberg/eslint-config": "workspace:*",
+    "@rollup/plugin-alias": "3.1.8",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-modules-newline": "^0.0.6",
+    "i18next": "^21.3.3",
+    "npm-run-all": "^4.1.5",
+    "rollup": "^2.58.3",
+    "rollup-plugin-filesize": "^9.1.1",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "ts-node": "^10.4.0",
+    "tslib": "^2.3.1",
+    "ttypescript": "^1.5.12",
+    "typescript": "^4.4.4",
+    "typescript-json-schema": "^0.51.0",
+    "typescript-transform-paths": "^3.3.1"
+  },
+  "peerDependencies": {
+    "i18next": "^21.3.3"
+  }
+}
