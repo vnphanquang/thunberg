@@ -35,6 +35,10 @@
       "allowedCategories": [ "blog" ]
     },
     {
+      "name": "@microsoft/rush-lib",
+      "allowedCategories": [ "tools" ]
+    },
+    {
       "name": "@popperjs/core",
       "allowedCategories": [ "blog" ]
     },
@@ -44,7 +48,7 @@
     },
     {
       "name": "@rollup/plugin-commonjs",
-      "allowedCategories": [ "blog", "thunberg" ]
+      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
     },
     {
       "name": "@rollup/plugin-json",
@@ -52,7 +56,15 @@
     },
     {
       "name": "@rollup/plugin-node-resolve",
-      "allowedCategories": [ "blog", "thunberg" ]
+      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
+    },
+    {
+      "name": "@rushstack/node-core-library",
+      "allowedCategories": [ "tools" ]
+    },
+    {
+      "name": "@rushstack/ts-command-line",
+      "allowedCategories": [ "tools" ]
     },
     {
       "name": "@sveltejs/adapter-node",
@@ -80,7 +92,7 @@
     },
     {
       "name": "@thunberg/eslint-config",
-      "allowedCategories": [ "blog", "thunberg" ]
+      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
     },
     {
       "name": "@thunberg/tailwind",
@@ -88,7 +100,7 @@
     },
     {
       "name": "@types/node",
-      "allowedCategories": [ "blog", "thunberg" ]
+      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
     },
     {
       "name": "@types/tailwindcss",
@@ -100,11 +112,11 @@
     },
     {
       "name": "@typescript-eslint/eslint-plugin",
-      "allowedCategories": [ "blog", "thunberg" ]
+      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
     },
     {
       "name": "@typescript-eslint/parser",
-      "allowedCategories": [ "thunberg" ]
+      "allowedCategories": [ "thunberg", "tools" ]
     },
     {
       "name": "@urql/core",
@@ -120,7 +132,7 @@
     },
     {
       "name": "autoprefixer",
-      "allowedCategories": [ "blog", "thunberg" ]
+      "allowedCategories": [ "blog", "libraries", "thunberg" ]
     },
     {
       "name": "classnames",
@@ -128,7 +140,7 @@
     },
     {
       "name": "clean-css",
-      "allowedCategories": [ "thunberg" ]
+      "allowedCategories": [ "libraries", "thunberg" ]
     },
     {
       "name": "cross-env",
@@ -140,7 +152,7 @@
     },
     {
       "name": "eslint",
-      "allowedCategories": [ "blog", "thunberg" ]
+      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
     },
     {
       "name": "eslint-config-prettier",
@@ -148,19 +160,19 @@
     },
     {
       "name": "eslint-import-resolver-alias",
-      "allowedCategories": [ "blog", "thunberg" ]
+      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
     },
     {
       "name": "eslint-plugin-import",
-      "allowedCategories": [ "blog", "thunberg" ]
+      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
     },
     {
       "name": "eslint-plugin-jest",
-      "allowedCategories": [ "thunberg" ]
+      "allowedCategories": [ "libraries", "thunberg" ]
     },
     {
       "name": "eslint-plugin-modules-newline",
-      "allowedCategories": [ "blog", "thunberg" ]
+      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
     },
     {
       "name": "eslint-plugin-svelte3",
@@ -176,7 +188,7 @@
     },
     {
       "name": "jest",
-      "allowedCategories": [ "thunberg" ]
+      "allowedCategories": [ "libraries", "thunberg" ]
     },
     {
       "name": "npm-run-all",
@@ -184,7 +196,7 @@
     },
     {
       "name": "postcss",
-      "allowedCategories": [ "blog", "thunberg" ]
+      "allowedCategories": [ "blog", "libraries", "thunberg" ]
     },
     {
       "name": "postcss-cli",
@@ -208,15 +220,15 @@
     },
     {
       "name": "rollup",
-      "allowedCategories": [ "blog", "thunberg" ]
+      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
     },
     {
       "name": "rollup-plugin-filesize",
-      "allowedCategories": [ "blog", "thunberg" ]
+      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
     },
     {
       "name": "rollup-plugin-typescript2",
-      "allowedCategories": [ "blog", "thunberg" ]
+      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
     },
     {
       "name": "stylelint",
@@ -252,7 +264,7 @@
     },
     {
       "name": "tailwindcss",
-      "allowedCategories": [ "blog", "thunberg" ]
+      "allowedCategories": [ "blog", "libraries", "thunberg" ]
     },
     {
       "name": "ts-node",
@@ -260,15 +272,15 @@
     },
     {
       "name": "tslib",
-      "allowedCategories": [ "blog", "thunberg" ]
+      "allowedCategories": [ "blog", "thunberg", "tools" ]
     },
     {
       "name": "ttypescript",
-      "allowedCategories": [ "blog", "thunberg" ]
+      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
     },
     {
       "name": "typescript",
-      "allowedCategories": [ "blog", "thunberg" ]
+      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
     },
     {
       "name": "typescript-json-schema",
@@ -276,7 +288,7 @@
     },
     {
       "name": "typescript-transform-paths",
-      "allowedCategories": [ "blog", "thunberg" ]
+      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
     },
     {
       "name": "uuid",

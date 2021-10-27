@@ -13,6 +13,7 @@ Monorepo for vnphanquang.com
     - [Recommended Vscode Extensions](#recommended-vscode-extensions)
   - [Development](#development)
   - [Project Structure](#project-structure)
+  - [Unpublished Local Projects](#unpublished-local-projects)
 
 ---
 
@@ -101,6 +102,26 @@ root
        |-- __template : template for creating application project
        :
 ```
+
+<!-- GENERATED PROJECT SUMMARY START -->
+
+## Unpublished Local Projects
+
+<!-- the table below was generated using the ./tools/toolbox (readme) script -->
+
+| Folder | Description |
+| ------ | -----------|
+| [/apps/__template](./apps/__template/) | Template for creating new app for monorepo setup |
+| [/apps/blog/frontend](./apps/blog/frontend/) | frontend for vnphanquang blog |
+| [/apps/blog/graphql](./apps/blog/graphql/) | GraphQL generated codes for @thunberg/blog |
+| [/apps/blog/i18n](./apps/blog/i18n/) | i18n artifacts for @thunberg/blog |
+| [/libs/__template](./libs/__template/) | Template for creating new library for monorepo setup |
+| [/libs/common](./libs/common/) | Common goodies for use across projects |
+| [/libs/tailwind](./libs/tailwind/) | General tailwind plugin for thunberg projects |
+| [/tools/eslint-config](./tools/eslint-config/) | Eslint config base for use in all projects |
+| [/tools/toolbox](./tools/toolbox/) | Used to execute various operations specific to this repo |
+
+<!-- GENERATED PROJECT SUMMARY END -->
 
 [rush]: https://rushjs.io/
 [pnpm]: https://pnpm.io/

@@ -1,7 +1,7 @@
 {
   "name": "@thunberg/blog-i18n",
   "version": "0.1.0",
-  "description": "i18n artifacts for HRM project",
+  "description": "i18n artifacts for @thunberg/blog",
   "author": "Quang Phan",
   "exports": {
     ".": {

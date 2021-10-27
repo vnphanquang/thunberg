@@ -1,0 +1,26 @@
+{
+  "name": "@thunberg/toolbox",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Used to execute various operations specific to this repo",
+  "scripts": {
+    "lint:es": "eslint src --ext .ts,.tsx",
+    "build": "tsc --project tsconfig.json",
+    "test": "echo 'no implemented tests'",
+    "readme": "node ./dist/src/cli readme"
+  },
+  "devDependencies": {
+    "@thunberg/eslint-config": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "eslint": "^8.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-modules-newline": "^0.0.6",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.4",
+    "@types/node": "^16.11.6",
+    "@microsoft/rush-lib": "^5.55.1",
+    "@rushstack/node-core-library": "^3.43.0",
+    "@rushstack/ts-command-line": "^4.10.3"
+  }
+}

@@ -2,7 +2,7 @@
   "name": "@thunberg/blog-graphql",
   "version": "0.1.0",
   "private": true,
-  "description": "GraphQL generated codes for project HRM",
+  "description": "GraphQL generated codes for @thunberg/blog",
   "author": "Quang Phan",
   "exports": {
     ".": {

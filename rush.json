@@ -18,8 +18,9 @@
 
   "approvedPackagesPolicy": {
     "reviewCategories": [
-      "thunberg",
-      "blog"
+      "libraries",
+      "blog",
+      "tools"
     ]
   },
 
@@ -50,7 +51,15 @@
     {
       "packageName": "@thunberg/eslint-config",
       "projectFolder": "tools/eslint-config",
-      "reviewCategory": "thunberg",
+      "reviewCategory": "tools",
+      "cyclicDependencyProjects": [],
+      "skipRushCheck": false,
+      "shouldPublish": false
+    },
+    {
+      "packageName": "@thunberg/toolbox",
+      "projectFolder": "tools/toolbox",
+      "reviewCategory": "tools",
       "cyclicDependencyProjects": [],
       "skipRushCheck": false,
       "shouldPublish": false
@@ -58,7 +67,7 @@
     {
       "packageName": "@thunberg/template-lib",
       "projectFolder": "libs/__template",
-      "reviewCategory": "thunberg",
+      "reviewCategory": "tools",
       "cyclicDependencyProjects": [],
       "skipRushCheck": false,
       "shouldPublish": false
@@ -66,7 +75,7 @@
     {
       "packageName": "@thunberg/template-app",
       "projectFolder": "apps/__template",
-      "reviewCategory": "thunberg",
+      "reviewCategory": "tools",
       "cyclicDependencyProjects": [],
       "skipRushCheck": false,
       "shouldPublish": false
@@ -74,7 +83,7 @@
     {
       "packageName": "@thunberg/common",
       "projectFolder": "libs/common",
-      "reviewCategory": "thunberg",
+      "reviewCategory": "libraries",
       "cyclicDependencyProjects": [],
       "skipRushCheck": false,
       "shouldPublish": false
@@ -82,7 +91,7 @@
     {
       "packageName": "@thunberg/tailwind",
       "projectFolder": "libs/tailwind",
-      "reviewCategory": "thunberg",
+      "reviewCategory": "libraries",
       "cyclicDependencyProjects": [],
       "skipRushCheck": false,
       "shouldPublish": false
