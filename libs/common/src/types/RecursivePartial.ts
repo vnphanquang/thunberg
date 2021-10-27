@@ -1,3 +1,6 @@
+/**
+ * Make object T recursively partial
+ */
 export type RecursivePartial<T> = {
   [P in keyof T]?:
     T[P] extends (infer U)[] ? RecursivePartial<U>[] :

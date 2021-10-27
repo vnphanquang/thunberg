@@ -23,6 +23,11 @@ const isObject = (obj: any) => {
   return false;
 };
 
+/**
+ * Recursively merge objects
+ * @param objects to merge
+ * @returns merged object
+ */
 export const deepmerge = <T extends IObject[]>(
   ...objects: T
 ): TUnionToIntersection<T[number]> =>

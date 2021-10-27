@@ -1,11 +1,12 @@
 /* eslint-disable @typescript-eslint/no-this-alias */
 /* eslint-disable @typescript-eslint/no-explicit-any */
+
 /**
  * A function that emits a side effect.
  */
-export type Procedure = (...args: any[]) => any;
+type Procedure = (...args: any[]) => any;
 
-export type Options<TT> = {
+type Options<TT> = {
   isImmediate?: boolean;
   maxWait?: number;
   callback?: (data: TT) => void;
@@ -16,6 +17,14 @@ export interface DebouncedFunction<F extends Procedure> {
   cancel: (reason?: any) => void;
 }
 
+/**
+ *
+ * Debounce a function within given milliseconds
+ * @param func to debounce
+ * @param waitMilliseconds to wait
+ * @param options for extensibility
+ * @returns debounced function
+ */
 export function debounce<F extends Procedure>(
   func: F,
   waitMilliseconds = 50,
