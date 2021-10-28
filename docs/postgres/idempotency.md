@@ -104,7 +104,7 @@ $$
         ALTER TABLE person
             ADD CONSTRAINT person_id_another_person_fkey FOREIGN KEY (id_another_person) REFERENCES person (id);
     EXCEPTION
-        WHEN duplicate_object THEN -- Error Code 42710
+        WHEN duplicate_table THEN -- Error Code 42P07
             RAISE NOTICE 'Constraint already exists. Ignoring...';
     END
 $$;
