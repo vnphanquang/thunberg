@@ -12,6 +12,8 @@ Monorepo for vnphanquang.com
     - [direnv](#direnv)
     - [Recommended Vscode Extensions](#recommended-vscode-extensions)
   - [Development](#development)
+  - [Deployment](#deployment)
+    - [Docker](#docker)
   - [Project Structure](#project-structure)
   - [Unpublished Local Projects](#unpublished-local-projects)
 
@@ -85,6 +87,25 @@ cd <path-to-project> && rush add -p <npm_package_name> --caret
 ```
 
 Use flag `--dev` to add dev dependencies
+
+## Deployment
+
+### Docker
+
+1. Build
+
+    Use generic `Dockerfile` at project root for general usage. If custom build is needed. Create a separate `Dockerfile` at project directory and use `docker build -f /path/to/a/Dockerfile .`
+
+    ```bash
+    # cd to project root
+    docker build -t <tag> --build-arg PROJECT=<project_name> --build-arg NODE_ENV=<...> --build-arg PORT=<...> .
+    ```
+
+2. Run
+
+    ```bash
+    docker run -d --name <container_name> --env-file <path_to_.env> --env NODE_ENV=<...> -p <PORT>:<PORT> <tag>
+    ```
 
 ## Project Structure
 

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/deploy-scenario.schema.json",
+
+  "deploymentProjectNames": ["@vnphanquang/frontend"],
+
+  "includeDevDependencies": false,
+  "includeNpmIgnoreFiles": false,
+  "omitPnpmWorkaroundLinks": false,
+  "linkCreation": "default",
+  "projectSettings": [
+    {
+      "projectName": "@vnphanquang/frontend",
+      "additionalProjectsToInclude": [],
+      "additionalDependenciesToInclude": [],
+      "dependenciesToExclude": []
+    }
+  ]
+}
