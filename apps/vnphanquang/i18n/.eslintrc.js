@@ -5,5 +5,4 @@ module.exports = {
     'tsconfigRootDir': __dirname,
     'project': 'tsconfig.json'
   },
-  'overrides': []
 };

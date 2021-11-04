@@ -1,0 +1,62 @@
+{
+  "name": "@vnphanquang/graphql",
+  "version": "0.1.0",
+  "private": true,
+  "description": "GraphQL generated codes for @vnphanquang",
+  "author": "Quang Phan",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js"
+    },
+    "./service": {
+      "import": "./dist/esm/service.js",
+      "require": "./dist/cjs/service.js"
+    }
+  },
+  "types": "src/types.generated.ts",
+  "typesVersions": {
+    "*": {
+      "service": [
+        "./dist/types/service/index.d.ts"
+      ]
+    }
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "lint:es": "eslint src --ext .ts,.tsx",
+    "test": "echo 'no implemented tests'",
+    "codegen": "graphql-codegen --config codegen.graphql.yaml"
+  },
+  "dependencies": {
+    "@vnphanquang/common": "workspace:*",
+    "@urql/core": "^2.3.3",
+    "@urql/exchange-multipart-fetch": "^0.1.13"
+  },
+  "devDependencies": {
+    "@vnphanquang/eslint-config": "workspace:*",
+    "@graphql-codegen/add": "^3.1.0",
+    "@graphql-codegen/cli": "^2.2.1",
+    "@graphql-codegen/introspection": "^2.1.0",
+    "@graphql-codegen/near-operation-file-preset": "^2.1.6",
+    "@graphql-codegen/typescript": "^2.2.4",
+    "@graphql-codegen/typescript-document-nodes": "^2.1.6",
+    "@graphql-codegen/typescript-operations": "^2.1.8",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@urql/core": "^2.3.3",
+    "@urql/devtools": "^2.0.3",
+    "eslint": "^8.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-modules-newline": "^0.0.6",
+    "graphql": "^15.6.1",
+    "prettier": "^2.4.1",
+    "rollup": "^2.58.3",
+    "rollup-plugin-filesize": "^9.1.1",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.4"
+  }
+}

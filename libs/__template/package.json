@@ -1,5 +1,5 @@
 {
-  "name": "@thunberg/template-lib",
+  "name": "@vnphanquang/template-lib",
   "version": "0.1.0",
   "private": true,
   "description": "Template for creating new library for monorepo setup",
@@ -10,7 +10,7 @@
     "test": "echo 'no implemented tests'"
   },
   "devDependencies": {
-    "@thunberg/eslint-config": "workspace:*",
+    "@vnphanquang/eslint-config": "workspace:*",
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.0.6",
     "@typescript-eslint/eslint-plugin": "^5.2.0",

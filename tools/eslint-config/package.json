@@ -1,5 +1,5 @@
 {
-  "name": "@thunberg/eslint-config",
+  "name": "@vnphanquang/eslint-config",
   "private": true,
   "description": "Eslint config base for use in all projects",
   "author": "Quang Phan",

@@ -1,8 +1,8 @@
 {
-  "name": "@thunberg/tailwind",
+  "name": "@vnphanquang/tailwind",
   "version": "0.1.0",
   "private": true,
-  "description": "General tailwind plugin for thunberg projects",
+  "description": "General tailwind plugin for @vnphanquang projects",
   "author": "Quang Phan",
   "main": "src/index.js",
   "scripts": {

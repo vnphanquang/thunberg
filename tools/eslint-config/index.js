@@ -90,7 +90,7 @@ module.exports = {
         ],
         'pathGroups': [
           {
-            'pattern': '@thunberg/**',
+            'pattern': '@vnphanquang/**',
             'group': 'internal'
           },
           {

@@ -1,6 +1,6 @@
 module.exports = {
   'root': true,
-  'extends': '@thunberg/eslint-config',
+  'extends': '@vnphanquang/eslint-config',
   'parserOptions': {
     'tsconfigRootDir': __dirname,
     'project': 'tsconfig.json'

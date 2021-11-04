@@ -4,35 +4,35 @@
   "packages": [
     {
       "name": "@fortawesome/free-solid-svg-icons",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "@graphql-codegen/add",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "@graphql-codegen/cli",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "@graphql-codegen/introspection",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "@graphql-codegen/near-operation-file-preset",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "@graphql-codegen/typescript",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "@graphql-codegen/typescript-document-nodes",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "@graphql-codegen/typescript-operations",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "@microsoft/rush-lib",
@@ -40,23 +40,23 @@
     },
     {
       "name": "@popperjs/core",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "@rollup/plugin-alias",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "@rollup/plugin-commonjs",
-      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
+      "allowedCategories": [ "libraries", "tools", "vnphanquang" ]
     },
     {
       "name": "@rollup/plugin-json",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "@rollup/plugin-node-resolve",
-      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
+      "allowedCategories": [ "libraries", "tools", "vnphanquang" ]
     },
     {
       "name": "@rushstack/node-core-library",
@@ -68,231 +68,231 @@
     },
     {
       "name": "@sveltejs/adapter-node",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "@sveltejs/kit",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "@svgr/webpack",
-      "allowedCategories": [ "blog" ]
-    },
-    {
-      "name": "@thunberg/blog-graphql",
-      "allowedCategories": [ "blog" ]
-    },
-    {
-      "name": "@thunberg/blog-i18n",
-      "allowedCategories": [ "blog" ]
-    },
-    {
-      "name": "@thunberg/common",
-      "allowedCategories": [ "blog" ]
-    },
-    {
-      "name": "@thunberg/eslint-config",
-      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
-    },
-    {
-      "name": "@thunberg/tailwind",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "@types/node",
-      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
+      "allowedCategories": [ "libraries", "tools", "vnphanquang" ]
     },
     {
       "name": "@types/tailwindcss",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "@types/uuid",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "@typescript-eslint/eslint-plugin",
-      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
+      "allowedCategories": [ "libraries", "tools", "vnphanquang" ]
     },
     {
       "name": "@typescript-eslint/parser",
-      "allowedCategories": [ "thunberg", "tools" ]
+      "allowedCategories": [ "tools" ]
     },
     {
       "name": "@urql/core",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "@urql/devtools",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "@urql/exchange-multipart-fetch",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
+    },
+    {
+      "name": "@vnphanquang/common",
+      "allowedCategories": [ "vnphanquang" ]
+    },
+    {
+      "name": "@vnphanquang/eslint-config",
+      "allowedCategories": [ "libraries", "tools", "vnphanquang" ]
+    },
+    {
+      "name": "@vnphanquang/graphql",
+      "allowedCategories": [ "vnphanquang" ]
+    },
+    {
+      "name": "@vnphanquang/i18n",
+      "allowedCategories": [ "vnphanquang" ]
+    },
+    {
+      "name": "@vnphanquang/tailwind",
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "autoprefixer",
-      "allowedCategories": [ "blog", "libraries", "thunberg" ]
+      "allowedCategories": [ "libraries", "vnphanquang" ]
     },
     {
       "name": "classnames",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "clean-css",
-      "allowedCategories": [ "libraries", "thunberg" ]
+      "allowedCategories": [ "libraries" ]
     },
     {
       "name": "cross-env",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "cssnano",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "eslint",
-      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
+      "allowedCategories": [ "libraries", "tools", "vnphanquang" ]
     },
     {
       "name": "eslint-config-prettier",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "eslint-import-resolver-alias",
-      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
+      "allowedCategories": [ "libraries", "tools", "vnphanquang" ]
     },
     {
       "name": "eslint-plugin-import",
-      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
+      "allowedCategories": [ "libraries", "tools", "vnphanquang" ]
     },
     {
       "name": "eslint-plugin-jest",
-      "allowedCategories": [ "libraries", "thunberg" ]
+      "allowedCategories": [ "libraries" ]
     },
     {
       "name": "eslint-plugin-modules-newline",
-      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
+      "allowedCategories": [ "libraries", "tools", "vnphanquang" ]
     },
     {
       "name": "eslint-plugin-svelte3",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "graphql",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "i18next",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "jest",
-      "allowedCategories": [ "libraries", "thunberg" ]
+      "allowedCategories": [ "libraries" ]
     },
     {
       "name": "npm-run-all",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "postcss",
-      "allowedCategories": [ "blog", "libraries", "thunberg" ]
+      "allowedCategories": [ "libraries", "vnphanquang" ]
     },
     {
       "name": "postcss-cli",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "postcss-import",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "postcss-preset-env",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "prettier",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "prettier-plugin-svelte",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "rollup",
-      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
+      "allowedCategories": [ "libraries", "tools", "vnphanquang" ]
     },
     {
       "name": "rollup-plugin-filesize",
-      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
+      "allowedCategories": [ "libraries", "tools", "vnphanquang" ]
     },
     {
       "name": "rollup-plugin-typescript2",
-      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
+      "allowedCategories": [ "libraries", "tools", "vnphanquang" ]
     },
     {
       "name": "stylelint",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "stylelint-config-standard",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "stylelint-order",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "svelte",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "svelte-check",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "svelte-fa",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "svelte-preprocess",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "svg-to-svelte",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "tailwindcss",
-      "allowedCategories": [ "blog", "libraries", "thunberg" ]
+      "allowedCategories": [ "libraries", "vnphanquang" ]
     },
     {
       "name": "ts-node",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "tslib",
-      "allowedCategories": [ "blog", "thunberg", "tools" ]
+      "allowedCategories": [ "tools", "vnphanquang" ]
     },
     {
       "name": "ttypescript",
-      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
+      "allowedCategories": [ "libraries", "tools", "vnphanquang" ]
     },
     {
       "name": "typescript",
-      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
+      "allowedCategories": [ "libraries", "tools", "vnphanquang" ]
     },
     {
       "name": "typescript-json-schema",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     },
     {
       "name": "typescript-transform-paths",
-      "allowedCategories": [ "blog", "libraries", "thunberg", "tools" ]
+      "allowedCategories": [ "libraries", "tools", "vnphanquang" ]
     },
     {
       "name": "uuid",
-      "allowedCategories": [ "blog" ]
+      "allowedCategories": [ "vnphanquang" ]
     }
   ]
 }

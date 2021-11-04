@@ -3,7 +3,7 @@
 
 import { ToolboxCommandLine } from './cli';
 
-console.log('@thunberg/toolbox\n');
+console.log('@vnphanquang/toolbox\n');
 
 const commandLine: ToolboxCommandLine = new ToolboxCommandLine();
 commandLine.execute().catch(console.error); // CommandLineParser.execute() should never reject the promise

@@ -22,7 +22,7 @@ Monorepo for vnphanquang.com
 Documentation for each project might be nested in subdirectory, below are some shortcuts
 
 - [Postgres Idempotent patterns](./docs/postgres/idempotency.md)
-- [Detailed Documentation for Blog](./apps/blog/README.md)
+- [Detailed Documentation for vnphanquang](./apps/vnphanquang/README.md)
 
 ## Prerequisites
 
@@ -112,12 +112,12 @@ root
 | Folder | Description |
 | ------ | -----------|
 | [/apps/__template](./apps/__template/) | Template for creating new app for monorepo setup |
-| [/apps/blog/frontend](./apps/blog/frontend/) | frontend for vnphanquang blog |
-| [/apps/blog/graphql](./apps/blog/graphql/) | GraphQL generated codes for @thunberg/blog |
-| [/apps/blog/i18n](./apps/blog/i18n/) | i18n artifacts for @thunberg/blog |
+| [/apps/vnphanquang/frontend](./apps/vnphanquang/frontend/) | frontend for @vnphanquang |
+| [/apps/vnphanquang/graphql](./apps/vnphanquang/graphql/) | GraphQL generated codes for @vnphanquang |
+| [/apps/vnphanquang/i18n](./apps/vnphanquang/i18n/) | i18n artifacts for @vnphanquang |
 | [/libs/__template](./libs/__template/) | Template for creating new library for monorepo setup |
 | [/libs/common](./libs/common/) | Common goodies for use across projects |
-| [/libs/tailwind](./libs/tailwind/) | General tailwind plugin for thunberg projects |
+| [/libs/tailwind](./libs/tailwind/) | General tailwind plugin for @vnphanquang projects |
 | [/tools/eslint-config](./tools/eslint-config/) | Eslint config base for use in all projects |
 | [/tools/toolbox](./tools/toolbox/) | Used to execute various operations specific to this repo |
 

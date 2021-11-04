@@ -1,0 +1,14 @@
+{
+	"name": "Quang Phan",
+	"short_name": "vnphanquang",
+  "lang": "en-US",
+  "dir": "ltr",
+	"background_color": "#222629",
+	"theme_color": "#fcbf10",
+	"display": "minimal-ui",
+  "orientation": "any",
+	"icons": [
+	],
+  "screenshots": [
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "name": "@thunberg/toolbox",
+  "name": "@vnphanquang/toolbox",
   "version": "0.1.0",
   "private": true,
   "description": "Used to execute various operations specific to this repo",
@@ -10,7 +10,7 @@
     "readme": "node ./dist/src/cli readme"
   },
   "devDependencies": {
-    "@thunberg/eslint-config": "workspace:*",
+    "@vnphanquang/eslint-config": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.2.0",
     "eslint": "^8.1.0",
     "eslint-import-resolver-alias": "^1.1.2",

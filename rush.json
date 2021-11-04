@@ -19,7 +19,7 @@
   "approvedPackagesPolicy": {
     "reviewCategories": [
       "libraries",
-      "blog",
+      "vnphanquang",
       "tools"
     ]
   },
@@ -49,7 +49,7 @@
 
   "projects": [
     {
-      "packageName": "@thunberg/eslint-config",
+      "packageName": "@vnphanquang/eslint-config",
       "projectFolder": "tools/eslint-config",
       "reviewCategory": "tools",
       "cyclicDependencyProjects": [],
@@ -57,7 +57,7 @@
       "shouldPublish": false
     },
     {
-      "packageName": "@thunberg/toolbox",
+      "packageName": "@vnphanquang/toolbox",
       "projectFolder": "tools/toolbox",
       "reviewCategory": "tools",
       "cyclicDependencyProjects": [],
@@ -65,7 +65,7 @@
       "shouldPublish": false
     },
     {
-      "packageName": "@thunberg/template-lib",
+      "packageName": "@vnphanquang/template-lib",
       "projectFolder": "libs/__template",
       "reviewCategory": "tools",
       "cyclicDependencyProjects": [],
@@ -73,7 +73,7 @@
       "shouldPublish": false
     },
     {
-      "packageName": "@thunberg/template-app",
+      "packageName": "@vnphanquang/template-app",
       "projectFolder": "apps/__template",
       "reviewCategory": "tools",
       "cyclicDependencyProjects": [],
@@ -81,7 +81,7 @@
       "shouldPublish": false
     },
     {
-      "packageName": "@thunberg/common",
+      "packageName": "@vnphanquang/common",
       "projectFolder": "libs/common",
       "reviewCategory": "libraries",
       "cyclicDependencyProjects": [],
@@ -89,7 +89,7 @@
       "shouldPublish": false
     },
     {
-      "packageName": "@thunberg/tailwind",
+      "packageName": "@vnphanquang/tailwind",
       "projectFolder": "libs/tailwind",
       "reviewCategory": "libraries",
       "cyclicDependencyProjects": [],
@@ -97,25 +97,25 @@
       "shouldPublish": false
     },
     {
-      "packageName": "@thunberg/blog-i18n",
-      "projectFolder": "apps/blog/i18n",
-      "reviewCategory": "blog",
+      "packageName": "@vnphanquang/i18n",
+      "projectFolder": "apps/vnphanquang/i18n",
+      "reviewCategory": "vnphanquang",
       "cyclicDependencyProjects": [],
       "skipRushCheck": false,
       "shouldPublish": false
     },
     {
-      "packageName": "@thunberg/blog-graphql",
-      "projectFolder": "apps/blog/graphql",
-      "reviewCategory": "blog",
+      "packageName": "@vnphanquang/graphql",
+      "projectFolder": "apps/vnphanquang/graphql",
+      "reviewCategory": "vnphanquang",
       "cyclicDependencyProjects": [],
       "skipRushCheck": false,
       "shouldPublish": false
     },
     {
-      "packageName": "@thunberg/blog-frontend",
-      "projectFolder": "apps/blog/frontend",
-      "reviewCategory": "blog",
+      "packageName": "@vnphanquang/frontend",
+      "projectFolder": "apps/vnphanquang/frontend",
+      "reviewCategory": "vnphanquang",
       "cyclicDependencyProjects": [],
       "skipRushCheck": false,
       "shouldPublish": false
