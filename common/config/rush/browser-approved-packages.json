@@ -68,11 +68,11 @@
     },
     {
       "name": "@sveltejs/adapter-node",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "@sveltejs/kit",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "@svgr/webpack",
@@ -80,11 +80,11 @@
     },
     {
       "name": "@types/node",
-      "allowedCategories": [ "libraries", "tools", "vnphanquang" ]
+      "allowedCategories": [ "libraries", "sudoku", "tools", "vnphanquang" ]
     },
     {
       "name": "@types/tailwindcss",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "@types/uuid",
@@ -92,7 +92,7 @@
     },
     {
       "name": "@typescript-eslint/eslint-plugin",
-      "allowedCategories": [ "libraries", "tools", "vnphanquang" ]
+      "allowedCategories": [ "libraries", "sudoku", "tools", "vnphanquang" ]
     },
     {
       "name": "@typescript-eslint/parser",
@@ -112,11 +112,11 @@
     },
     {
       "name": "@vnphanquang/common",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "@vnphanquang/eslint-config",
-      "allowedCategories": [ "libraries", "tools", "vnphanquang" ]
+      "allowedCategories": [ "libraries", "sudoku", "tools", "vnphanquang" ]
     },
     {
       "name": "@vnphanquang/graphql",
@@ -128,15 +128,15 @@
     },
     {
       "name": "@vnphanquang/tailwind",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "autoprefixer",
-      "allowedCategories": [ "libraries", "vnphanquang" ]
+      "allowedCategories": [ "libraries", "sudoku", "vnphanquang" ]
     },
     {
       "name": "classnames",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "clean-css",
@@ -144,27 +144,27 @@
     },
     {
       "name": "cross-env",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "cssnano",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "eslint",
-      "allowedCategories": [ "libraries", "tools", "vnphanquang" ]
+      "allowedCategories": [ "libraries", "sudoku", "tools", "vnphanquang" ]
     },
     {
       "name": "eslint-config-prettier",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "eslint-import-resolver-alias",
-      "allowedCategories": [ "libraries", "tools", "vnphanquang" ]
+      "allowedCategories": [ "libraries", "sudoku", "tools", "vnphanquang" ]
     },
     {
       "name": "eslint-plugin-import",
-      "allowedCategories": [ "libraries", "tools", "vnphanquang" ]
+      "allowedCategories": [ "libraries", "sudoku", "tools", "vnphanquang" ]
     },
     {
       "name": "eslint-plugin-jest",
@@ -172,11 +172,11 @@
     },
     {
       "name": "eslint-plugin-modules-newline",
-      "allowedCategories": [ "libraries", "tools", "vnphanquang" ]
+      "allowedCategories": [ "libraries", "sudoku", "tools", "vnphanquang" ]
     },
     {
       "name": "eslint-plugin-svelte3",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "graphql",
@@ -192,31 +192,31 @@
     },
     {
       "name": "npm-run-all",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "postcss",
-      "allowedCategories": [ "libraries", "vnphanquang" ]
+      "allowedCategories": [ "libraries", "sudoku", "vnphanquang" ]
     },
     {
       "name": "postcss-cli",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "postcss-import",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "postcss-preset-env",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "prettier",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "prettier-plugin-svelte",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "rollup",
@@ -232,47 +232,47 @@
     },
     {
       "name": "stylelint",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "stylelint-config-standard",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "stylelint-order",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "svelte",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "svelte-check",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "svelte-fa",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "svelte-preprocess",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "svg-to-svelte",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "tailwindcss",
-      "allowedCategories": [ "libraries", "vnphanquang" ]
+      "allowedCategories": [ "libraries", "sudoku", "vnphanquang" ]
     },
     {
       "name": "ts-node",
-      "allowedCategories": [ "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "vnphanquang" ]
     },
     {
       "name": "tslib",
-      "allowedCategories": [ "tools", "vnphanquang" ]
+      "allowedCategories": [ "sudoku", "tools", "vnphanquang" ]
     },
     {
       "name": "ttypescript",
@@ -280,7 +280,7 @@
     },
     {
       "name": "typescript",
-      "allowedCategories": [ "libraries", "tools", "vnphanquang" ]
+      "allowedCategories": [ "libraries", "sudoku", "tools", "vnphanquang" ]
     },
     {
       "name": "typescript-json-schema",

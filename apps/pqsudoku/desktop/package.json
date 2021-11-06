@@ -1,0 +1,21 @@
+{
+  "name": "@vnphanquang/pqsudoku-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "pqsudoku desktop app",
+  "author": "Quang Phan",
+  "scripts": {
+    "lint:es": "eslint src --ext .ts,.tsx",
+    "build": "echo 'no implemented build step'",
+    "test": "echo 'no implemented tests'"
+  },
+  "devDependencies": {
+    "@vnphanquang/eslint-config": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "eslint": "^8.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-modules-newline": "^0.0.6",
+    "typescript": "^4.4.4"
+  }
+}

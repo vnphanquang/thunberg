@@ -20,7 +20,8 @@
     "reviewCategories": [
       "libraries",
       "vnphanquang",
-      "tools"
+      "tools",
+      "sudoku"
     ]
   },
 
@@ -116,6 +117,22 @@
       "packageName": "@vnphanquang/frontend",
       "projectFolder": "apps/vnphanquang/frontend",
       "reviewCategory": "vnphanquang",
+      "cyclicDependencyProjects": [],
+      "skipRushCheck": false,
+      "shouldPublish": false
+    },
+    {
+      "packageName": "@vnphanquang/pqsudoku-web",
+      "projectFolder": "apps/pqsudoku/web",
+      "reviewCategory": "sudoku",
+      "cyclicDependencyProjects": [],
+      "skipRushCheck": false,
+      "shouldPublish": false
+    },
+    {
+      "packageName": "@vnphanquang/pqsudoku-desktop",
+      "projectFolder": "apps/pqsudoku/desktop",
+      "reviewCategory": "sudoku",
       "cyclicDependencyProjects": [],
       "skipRushCheck": false,
       "shouldPublish": false
