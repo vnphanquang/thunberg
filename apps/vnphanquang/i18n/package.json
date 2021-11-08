@@ -5,19 +5,19 @@
   "author": "Quang Phan",
   "exports": {
     ".": {
-      "import": "./dist/esm/index.js",
-      "default": "./dist/cjs/index.js"
+      "import": "./build/esm/index.js",
+      "default": "./build/cjs/index.js"
     },
     "./paths": {
-      "import": "./dist/esm/paths.js",
-      "default": "./dist/cjs/paths.js"
+      "import": "./build/esm/paths.js",
+      "default": "./build/cjs/paths.js"
     }
   },
-  "types": "./dist/types/src/index.d.ts",
+  "types": "./build/types/src/index.d.ts",
   "typesVersions": {
     "*": {
       "paths": [
-        "./dist/types/src/paths.d.ts"
+        "./build/types/src/paths.d.ts"
       ]
     }
   },

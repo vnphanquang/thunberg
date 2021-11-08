@@ -23,8 +23,6 @@ RUN node common/scripts/install-run-rush.js install --to ${PROJECT} --bypass-pol
 RUN node common/scripts/install-run-rush.js build --to ${PROJECT}
 # prepare deployment bundle
 RUN node common/scripts/install-run-rush.js deploy --project ${PROJECT} --overwrite
-# src folder not needed, delete to reduce image size
-RUN rm -r common/deploy/$(node -e "console.log(require('./rush.json').projects.find(p => p.packageName === '${PROJECT}')?.projectFolder)")/src
 
 #---------------------
 

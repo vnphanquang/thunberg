@@ -5,9 +5,9 @@ const tailwind = require('tailwindcss');
 const CleanCSS = require('clean-css');
 
 const inputPath = path.resolve(__dirname, '../../src/index.js');
-const outputPath = path.resolve(__dirname, '../../dist');
+const outputPath = path.resolve(__dirname, '../../build');
 
-module.exports = function buildDistFile(filename) {
+module.exports = function buildBuildFile(filename) {
   return postcss([
     tailwind({
       mode: 'jit',
@@ -19,7 +19,7 @@ module.exports = function buildDistFile(filename) {
   ])
     .process('@tailwind base; @tailwind components; @tailwind utilities', {
       from: null,
-      to: path.resolve(__dirname, `../../dist/${filename}.css`),
+      to: path.resolve(__dirname, `../../build/${filename}.css`),
       map: false,
     })
     .then((result) => {

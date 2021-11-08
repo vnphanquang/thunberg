@@ -6,19 +6,19 @@
   "author": "Quang Phan",
   "exports": {
     ".": {
-      "import": "./dist/esm/index.js",
-      "require": "./dist/cjs/index.js"
+      "import": "./build/esm/index.js",
+      "require": "./build/cjs/index.js"
     },
     "./service": {
-      "import": "./dist/esm/service.js",
-      "require": "./dist/cjs/service.js"
+      "import": "./build/esm/service.js",
+      "require": "./build/cjs/service.js"
     }
   },
   "types": "src/types.generated.ts",
   "typesVersions": {
     "*": {
       "service": [
-        "./dist/types/service/index.d.ts"
+        "./build/types/service/index.d.ts"
       ]
     }
   },

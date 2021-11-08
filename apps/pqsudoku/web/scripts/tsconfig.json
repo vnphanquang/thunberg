@@ -11,6 +11,6 @@
     "resolveJsonModule": true,
     "moduleResolution": "Node",
     "esModuleInterop": true,
-    "outDir": "./dist"
+    "outDir": "./build"
   }
 }

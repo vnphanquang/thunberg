@@ -73,7 +73,6 @@ Some extensions that are well suited for this project:
 | [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) | Brad Cornes    |
 | [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)                | stylelint      |
 
-
 ## Development
 
 - Globally-defined commands (run with `rush <command>`) can be found in [command-line.json](./common/config/rush/command-line.json).
@@ -94,7 +93,9 @@ Use flag `--dev` to add dev dependencies
 
 1. Build
 
-    Use generic `Dockerfile` at project root for general usage. If custom build is needed. Create a separate `Dockerfile` at project directory and use `docker build -f /path/to/a/Dockerfile .`
+    Use generic [`Dockerfile` at project root](./Dockerfile) if possible. See [Dockerfile](./Dockerfile) implementation to determine compatibility. Note that for a project to be able to use this generic `Dockerfile`, it should implement the `build` and `start` script in `package.json`.
+
+    If custom build is needed. Create a separate `Dockerfile` at project directory and use `docker build -f /path/to/a/Dockerfile .`
 
     ```bash
     # cd to project root

@@ -25,7 +25,7 @@ export default [
   {
     input,
     output: {
-      dir: path.resolve(__dirname, 'dist/esm'),
+      dir: path.resolve(__dirname, 'build/esm'),
       format: 'esm',
       sourcemap: true,
     },
@@ -35,7 +35,7 @@ export default [
   {
     input,
     output: {
-      dir: path.resolve(__dirname, 'dist/cjs'),
+      dir: path.resolve(__dirname, 'build/cjs'),
       format: 'cjs',
       sourcemap: true,
     },

@@ -17,7 +17,7 @@
     "paths": {},
     "esModuleInterop": true,
     "noEmit": false,
-    "declarationDir": "./dist/types/",
-    "outDir": "./dist/"
+    "declarationDir": "./build/types/",
+    "outDir": "./build/"
   }
 }

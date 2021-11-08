@@ -7,7 +7,7 @@
     "lint:es": "eslint src --ext .ts,.tsx",
     "build": "tsc --project tsconfig.json",
     "test": "echo 'no implemented tests'",
-    "readme": "node ./dist/src/cli readme"
+    "readme": "node ./build/src/cli readme"
   },
   "devDependencies": {
     "@vnphanquang/eslint-config": "workspace:*",
